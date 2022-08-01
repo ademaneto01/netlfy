@@ -45,7 +45,7 @@ function Routes() {
                 <Route path="/perfil/editar" exact component={EdicaoPerfil} />
                 <Route path="/perfil" exact component={Perfil} />
               </Main>
-            </LojaProvider>  
+            </LojaProvider>
           </RotasProtegidas>
         </Switch>
       </Router>
